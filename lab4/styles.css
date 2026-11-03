@@ -1,1 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  overflow: hidden;
+  position: relative;
+  background-color: #f9f9f9;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ccc;
+}
+
+.title {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.stats-panel {
+  position: absolute;
+  top: 70px;
+  left: 15px;
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  user-select: none;
+  z-index: 10;
+}
+
+#target-box {
+  display: none;
+  position: absolute;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: top 0.1s ease, left 0.1s ease;
+}
+
+select, button {
+  padding: 5px 10px;
+  font-size: 14px;
+}
