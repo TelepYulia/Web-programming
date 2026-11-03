@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const SETTINGS = {
     lazy: { time: 5, size: 80, maxStep: 150 },
     normal: { time: 3, size: 55, maxStep: 350 },
-    hard: { time: 1, size: 35, maxStep: 1000 }
+    hard: { time: 2, size: 35, maxStep: 1000 }
   };
 
   const difficultySelect = document.getElementById('difficulty-select');
