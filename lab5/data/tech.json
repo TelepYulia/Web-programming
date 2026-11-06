@@ -1,0 +1,9 @@
+{
+  "category_name": "IT та Програмування",
+  "items": [
+    { "id": 201, "name": "Чистий код", "shortname": "book_clean_code", "description": "Легендарне керівництво Роберта Мартіна про написання якісного коду.", "price": 650 },
+    { "id": 202, "name": "Ви не знаєте JS", "shortname": "book_ydkjs", "description": "Глибоке занурення в механізми та тонкощі мови JavaScript.", "price": 420 },
+    { "id": 203, "name": "Grokking Algorithms", "shortname": "book_grokking", "description": "Ілюстроване керівництво з алгоритмів для програмістів-початківців.", "price": 490 },
+    { "id": 204, "name": "Паттерни проектування", "shortname": "book_patterns", "description": "Опис типових рішень частих проблем у розробці ПЗ.", "price": 580 }
+  ]
+}
