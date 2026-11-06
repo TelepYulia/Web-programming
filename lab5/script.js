@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Секція Specials
     html += `
       <div class="mt-5 p-4 bg-white rounded-3 shadow-sm border text-center">
-        <h4 class="fw-bold text-success"> Що почитати? (Specials)</h4>
+        <h4 class="fw-bold text-success"> Що почитати? </h4>
         <p class="text-muted">Не знаєте, який жанр обрати? Натисніть кнопку та отримайте випадкову добірку!</p>
         <button id="btn-specials" class="btn btn-success btn-lg fw-bold">Мені пощастить!</button>
       </div>
